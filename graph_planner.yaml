@@ -1,0 +1,32 @@
+GraphPlanner:
+  # offset of transform from world(x,y) to grid map(x,y)
+  planner_name: a_star
+
+  convert_offset: 0
+  # error tolerance
+  default_tolerance: 0.01
+  # whether outline the map or not
+  outline_map: true
+  # obstacle inflation factor
+  obstacle_factor: 0.001
+  # whether publish expand zone or not
+  expand_zone: true
+  # whether to store Voronoi map or not
+  voronoi_map: false
+
+
+  # GraphPlanner:
+  # # offset of transform from world(x,y) to grid map(x,y)
+  # planner_name: theta_star
+
+  # convert_offset: 0.8
+  # # error tolerance
+  # default_tolerance: 0.1
+  # # whether outline the map or not
+  # outline_map: true
+  # # obstacle inflation factor
+  # obstacle_factor: 0.2
+  # # whether publish expand zone or not
+  # expand_zone: false
+  # # whether to store Voronoi map or not
+  # voronoi_map: true
